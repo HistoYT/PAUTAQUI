@@ -1,0 +1,361 @@
+﻿*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+   
+}
+
+.slider{
+    overflow: hidden;
+    position: relative;
+    top: 150px;    
+   
+}
+
+.slider ul{
+    display: flex;
+    animation: cambio 20s infinite alternate linear;
+    width: 200%;
+}
+
+.slider li{
+    list-style: none;
+}
+
+
+@keyframes cambio {
+    0%{margin-left: 0;}
+    35%{margin-left: 0;}
+
+    45%{margin-left: -113%;}
+    60%{margin-left: -113%;}
+
+    75%{margin-left: -220%;}
+    100%{margin-left: -220%;}
+
+   
+}
+
+
+.barra{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 16%;
+    height: 16%;
+    position: absolute;
+    transition: .5s all;
+    z-index: 1;
+    top:47px;
+}
+
+.barra ul{
+    padding: 0px;
+    text-align: center;
+}
+.barra li{
+    transition: .5s all;
+}
+
+.barra a{
+    text-decoration: none;
+    list-style: none;
+    transition: .5s all;
+    font-size: 0px;
+    padding: 0px;
+}
+
+.barra h2{
+    text-align: center;
+    color: aliceblue;
+    padding: 7px;
+    font-size: 0px;
+}
+
+.barra img{
+    position: absolute;
+    padding-top: 10px;
+    padding-left: 0px;
+    
+}
+
+.barra:hover{
+    width: 14%;
+    height: 190%;
+    background-color:rgb(0, 0, 0);
+}
+
+.barra:hover h2{
+    padding: 15px;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+}
+
+
+.barra:hover a{
+    font-size: 15px;
+    color: #ffd900;
+    display: block;
+    padding: 20px;
+}
+
+.barra:hover img{
+    height: 0px;
+}
+
+.barra:hover li{
+    border-top: 1px solid black;
+    width: 100%;
+}
+
+.barra:hover ul:last-of-type{
+    border-bottom: 1px solid black;
+}
+
+.barra:hover a:hover{
+    font-size: 25px;
+    padding: 30px 0px;
+    background-color: rgb(255, 255, 255);
+
+}
+
+.cuadrado{
+    width: 1730px;
+    height: 100px;
+    background-color: rgb(255, 230, 0);
+    position: absolute;
+    top: 70px;
+    right: ;
+}
+
+
+.superior{
+    position: absolute;
+    display: flex;
+    top: 110px;
+    left: 1400px;
+
+}
+
+
+
+
+.imagen1{
+    position: absolute;
+    top: 1090px;
+    left: 175px;
+}
+
+.imagen2{
+    position: absolute;
+    top: 1090px;
+    left: 1070px;
+}
+
+.imagen3{
+    position: absolute;
+    top: 1090px;
+    left: 620px;
+}
+
+.imagen4{
+    position: absolute;
+    top: 1306px;
+    left: 620px;
+}
+
+.imagen5{
+    position: absolute;
+    top: 1800px;
+    left: 175px;
+}
+
+.imagen6{
+    position: absolute;
+    top: 1800px;
+    left: 874px;
+}
+
+.imagen7{
+    position: absolute;
+    top: 2038px;
+    left: 874px;
+}
+
+.imagen8{
+    position: absolute;
+    top: 2290px;
+    left: 165px;
+}
+
+.imagen9{
+    position: absolute;
+    top: 2290px;
+    left: 1200px;
+}
+
+.wsp{
+    position: fixed;
+    left: 1620px;
+    top: 770px;
+}
+
+.P{
+    position: absolute;
+    top: 790px;
+    padding-left: 40%;
+}
+
+.PD{
+    position: absolute;
+    top: 850px;
+    padding-left: 8.5%;
+    
+}
+
+.cuadrado1{
+    width: 1730px;
+    height: 300px;
+    background-color: rgb(255, 230, 0);
+    position: absolute;
+    top: 3180px;
+   
+}
+
+.lineaf{
+    width: 280px;
+    height: 4px;
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    top: 3240px;
+    left: 100px;
+}
+.lineaf1{
+    width: 280px;
+    height: 4px;
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    top: 3240px;
+    left: 750px;
+}
+
+
+
+.inferior1{
+        position:absolute;
+        top: 3195px;
+        font-size: 40px;
+        left: 750px;
+    
+}
+
+.si{
+    position: absolute;
+    top: -5px;
+}
+
+.inferior2{
+    position:absolute;
+    top: 3195px;
+    font-size: 40px;
+    left: 100px;
+
+}
+
+.inst{
+    position: absolute;
+    left: 40px;
+    font-size: 25px;
+    top: 59px;
+}
+.fc{
+    position: absolute;
+    font-size: 25px;
+    left: 40px;
+    top: 109px;
+}
+.termi{
+    position: absolute;
+    font-size: 25px;
+    top: 59px;
+}
+.po{
+    position: absolute;
+    font-size: 25px;
+    top: 130px;
+}
+
+.inferior1 img{
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    right: 110px;
+    
+}
+
+.abajo{
+    position: absolute;
+    top: -290px;
+}
+
+.PD2{
+    position: absolute;
+    top: 1560px;
+    left: 150px;
+}
+
+.container{
+    position: absolute;
+    top: 75px;
+    left: 300px;
+    transform translate: (-50%, -50%) ;
+    padding: 10px;
+}
+input{
+    outline: none;
+    box-sizing: border-box;
+    height: 40px;
+    width: 0;
+    padding: 0 20px;
+    color: black;
+    border-radius: 50px;
+    font-size: 20px;
+    border: 1px solid rgb(255, 255, 255);
+    transition: all .7s ease;
+}
+
+::placeholder{
+    color: rgb(0, 0, 0);
+}
+
+.btn{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 60px;
+    height: 60px;
+    background: rgb(0, 0, 0);
+    line-height: 80px;
+    border-radius: 50%;
+    text-align: center;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.btn i{
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    line-height: 80px;
+    transition: all .7s ease;
+}
+
+.container:hover input{
+    width: 350px;
+}
+
+.container:hover i{
+    transform: rotate(-360deg);
+}
+
+.btn:hover{
+    background: rgb(0, 0, 0);
+}
+
